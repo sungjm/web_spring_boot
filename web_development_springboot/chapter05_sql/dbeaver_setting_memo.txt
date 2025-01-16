@@ -1,0 +1,16 @@
+자동 다운로드가 되면 아무문제 없음
+
+왼쪽 하얀색 파트에 localhost x표시가 되어있다면
+
+https://mariadb.com/kb/en/about-mariadb-connector-j/
+
+connector/j java8+ connector로 받는데, 버전을 둘 다 받는다
+database -> driver manager -> mariadb -> edit -> libraries ->
+add file을 통해서 connector/j 둘 다 추가
+다 확인하고 빠져나와서
+
+자동 다운로드에서 빨간색 뜨는거 클릭을 열심히한다
+강제 다운로드 force 체크하고 다운로드받으면
+갑자기 빨간색은 뜨지만
+왼쪽 흰색 부분이 막 로딩창 돌아가더니
+지혼자된다
