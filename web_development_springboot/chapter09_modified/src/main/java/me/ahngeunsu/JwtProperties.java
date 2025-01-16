@@ -1,4 +1,4 @@
-package me.ahngeunsu.springbootdeveloper.config.jwt;
+package me.ahngeunsu;
 
 import lombok.Getter;
 import lombok.Setter;
