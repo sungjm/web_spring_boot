@@ -1,4 +1,4 @@
-package me.ahngeunsu.springbootdeveloper.controller;
+package springbootdeveloper.controller;
 /*
     given
         - 테스트 유저를 생성, jjwt 라이브러리 이용해서 리프레시 토큰을 만들어
