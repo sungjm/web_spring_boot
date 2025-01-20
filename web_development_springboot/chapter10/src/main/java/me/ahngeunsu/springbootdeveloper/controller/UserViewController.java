@@ -15,6 +15,8 @@ public class UserViewController {
         return "oauthLogin";
     }
 
+    //https://developers.google.com/identity/branding-guidelines?hl=ko
+
     @GetMapping("/signup")
     public String signup() {
         return "signup";
