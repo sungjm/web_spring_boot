@@ -47,7 +47,7 @@ public class OAuth2SuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
         addRefreshTokenToCookie(request, response, refreshToken);
 
         String accessToken = tokenProvider.generateToken(user, ACCESS_TOKEN_DURATION);
-        // 빨간줄 뜹니다. -> 밑에 정의
+                            // 빨간줄 뜹니다. -> 밑에 정의
         String targetUrl = getTargetUrl(accessToken);
 
         clearAuthenticationAttributes(request, response);
